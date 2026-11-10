@@ -1,0 +1,23 @@
+# NÁHUATL 0.1: programa demostrativo
+tequitl tlatlauhtia(tocaitl) {
+    ihcuiloa("Niltze, " + tocaitl + "!");
+}
+
+tlatlauhtia("Mundo");
+mati xihuitl = 20;
+
+tla (xihuitl >= 18) {
+    ihcuiloa("Ya eres mayor de edad");
+}
+zan {
+    ihcuiloa("Eres menor de edad");
+}
+
+mati tlapohualli = 1;
+oc (tlapohualli <= 3) {
+    ihcuiloa("Cuenta:", tlapohualli);
+    tlapohualli = tlapohualli + 1;
+}
+
+mati tlananquilli = quema ihuan ax amo;
+ihcuiloa("Condición:", tlananquilli);
